@@ -18,8 +18,9 @@ const Spinner = styled.div``;
 
 const StDescription = styled.p`
   font-weight: 700;
-  color: var(--pink200);
+  color: var(--primary300);
 `;
+
 const LoadingSpinner = () => {
   return (
     <LoadingOverlay>
@@ -32,215 +33,215 @@ const LoadingSpinner = () => {
           viewBox="0 0 100 100"
           preserveAspectRatio="xMidYMid"
         >
-          <circle cx="75" cy="50" fill="#f38a9b" r="5">
+          <circle cx="75" cy="50" fill="#ffa500" r="5">
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.7971014492753623s"
+              begin="-0.9166666666666666s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.7971014492753623s"
+              dur="1s"
+              begin="-0.9166666666666666s"
             ></animate>
           </circle>
-          <circle cx="71.65063509461098" cy="62.5" fill="#f38a9b" r="5">
+          <circle cx="71.65063509461098" cy="62.5" fill="#ffa500" r="5">
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.7246376811594203s"
+              begin="-0.8333333333333334s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.7246376811594203s"
+              dur="1s"
+              begin="-0.8333333333333334s"
             ></animate>
           </circle>
-          <circle cx="62.5" cy="71.65063509461096" fill="#f38a9b" r="5">
+          <circle cx="62.5" cy="71.65063509461096" fill="#ffa500" r="5">
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.6521739130434783s"
+              begin="-0.75s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.6521739130434783s"
+              dur="1s"
+              begin="-0.75s"
             ></animate>
           </circle>
-          <circle cx="50" cy="75" fill="#f38a9b" r="5">
+          <circle cx="50" cy="75" fill="#ffa500" r="5">
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.5797101449275363s"
+              begin="-0.6666666666666666s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.5797101449275363s"
+              dur="1s"
+              begin="-0.6666666666666666s"
             ></animate>
           </circle>
           <circle
             cx="37.50000000000001"
             cy="71.65063509461098"
-            fill="#f38a9b"
+            fill="#ffa500"
             r="5"
           >
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.5072463768115941s"
+              begin="-0.5833333333333334s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.5072463768115941s"
+              dur="1s"
+              begin="-0.5833333333333334s"
             ></animate>
           </circle>
-          <circle cx="28.34936490538903" cy="62.5" fill="#f38a9b" r="5">
+          <circle cx="28.34936490538903" cy="62.5" fill="#ffa500" r="5">
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.43478260869565216s"
+              begin="-0.5s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.43478260869565216s"
+              dur="1s"
+              begin="-0.5s"
             ></animate>
           </circle>
-          <circle cx="25" cy="50" fill="#f38a9b" r="5">
+          <circle cx="25" cy="50" fill="#ffa500" r="5">
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.36231884057971014s"
+              begin="-0.4166666666666667s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.36231884057971014s"
+              dur="1s"
+              begin="-0.4166666666666667s"
             ></animate>
           </circle>
           <circle
             cx="28.34936490538903"
             cy="37.50000000000001"
-            fill="#f38a9b"
+            fill="#ffa500"
             r="5"
           >
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.2898550724637681s"
+              begin="-0.3333333333333333s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.2898550724637681s"
+              dur="1s"
+              begin="-0.3333333333333333s"
             ></animate>
           </circle>
           <circle
             cx="37.499999999999986"
             cy="28.34936490538904"
-            fill="#f38a9b"
+            fill="#ffa500"
             r="5"
           >
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.21739130434782608s"
+              begin="-0.25s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.21739130434782608s"
+              dur="1s"
+              begin="-0.25s"
             ></animate>
           </circle>
-          <circle cx="49.99999999999999" cy="25" fill="#f38a9b" r="5">
+          <circle cx="49.99999999999999" cy="25" fill="#ffa500" r="5">
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.14492753623188406s"
+              begin="-0.16666666666666666s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.14492753623188406s"
+              dur="1s"
+              begin="-0.16666666666666666s"
             ></animate>
           </circle>
-          <circle cx="62.5" cy="28.349364905389034" fill="#f38a9b" r="5">
+          <circle cx="62.5" cy="28.349364905389034" fill="#ffa500" r="5">
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
-              begin="-0.07246376811594203s"
+              begin="-0.08333333333333333s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
-              begin="-0.07246376811594203s"
+              dur="1s"
+              begin="-0.08333333333333333s"
             ></animate>
           </circle>
           <circle
             cx="71.65063509461096"
             cy="37.499999999999986"
-            fill="#f38a9b"
+            fill="#ffa500"
             r="5"
           >
             <animate
               attributeName="r"
               values="3;3;5;3;3"
-              dur="0.8695652173913042s"
+              dur="1s"
               repeatCount="indefinite"
               begin="0s"
             ></animate>
             <animate
               attributeName="fill"
-              values="#f38a9b;#f38a9b;#ff153c;#f38a9b;#f38a9b"
+              values="#ffa500;#ffa500;#ff7300;#ffa500;#ffa500"
               repeatCount="indefinite"
-              dur="0.8695652173913042s"
+              dur="1s"
               begin="0s"
             ></animate>
           </circle>
