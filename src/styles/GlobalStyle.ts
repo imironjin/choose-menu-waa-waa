@@ -29,6 +29,10 @@ body {
   :root{
     --black: #000000;
     --white: #ffffff;
+    --primary100: #fff3e2;
+    --primary200: #ffb32f;
+    --primary300: #ffa500;
+    --primary400: #ff7300;
   }
 `;
 
