@@ -1,11 +1,23 @@
 import { Reset as ResetCss } from 'styled-reset';
-function App() {
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Layout from '@/components/layout/Layout';
+import MenuListPage from '@/pages/MenuListPage';
+import GlobalStyle from '@/styles/GlobalStyle';
+
+const App = () => {
   return (
     <>
-      <ResetCss />
-      <h1>hi react</h1>
+      <BrowserRouter>
+        <ResetCss />
+        <GlobalStyle />
+        <Routes>
+          <Route element={<Layout />}>
+            <Route index element={<MenuListPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;
