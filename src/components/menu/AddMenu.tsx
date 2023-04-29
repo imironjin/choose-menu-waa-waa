@@ -20,7 +20,7 @@ const StForm = styled.form`
 `;
 
 const StUl = styled.ul`
-  width: ${rem(310)};
+  width: ${rem(300)};
   @media (min-width: 768px) {
     width: ${rem(400)};
   }
@@ -48,7 +48,7 @@ const StInput = styled.input`
   border: none;
   border-bottom: 1px solid;
   outline: none;
-  width: ${rem(150)};
+  width: ${rem(140)};
   @media (min-width: 768px) {
     font-size: ${rem(25)};
     width: ${rem(200)};
