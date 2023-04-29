@@ -14,7 +14,7 @@ const StLayout = styled.div`
   margin: ${rem(50)} auto 0 auto;
   margin-left: auto;
   margin-right: auto;
-  width: ${rem(400)};
+  width: ${rem(300)};
   @media (min-width: 768px) {
     width: ${rem(600)};
   }
