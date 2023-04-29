@@ -2,6 +2,11 @@ import { createGlobalStyle } from 'styled-components/macro';
 
 const GlobalStyle = createGlobalStyle`
 body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
+  overflow-y: auto;
+  
   button,
   a {cursor: pointer};
   }
@@ -26,6 +31,10 @@ body {
     height: auto;
   }
 
+  #root {
+    overflow-x: hidden; 
+    overflow-y: auto;
+  }
   :root{
     --black: #000000;
     --white: #ffffff;
